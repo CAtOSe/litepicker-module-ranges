@@ -1,0 +1,61 @@
+{
+  "name": "litepicker-module-ranges",
+  "version": "0.0.1",
+  "description": "Litepicker module ranges",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prod": "webpack --config config/webpack.prod.js",
+    "dev": "webpack --config config/webpack.dev.js",
+    "watch": "webpack -w --config config/webpack.dev.js"
+  },
+  "keywords": [
+    "litepicker",
+    "module",
+    "ranges"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wakirin/litepicker-module-ranges.git"
+  },
+  "author": {
+    "name": "Rinat G.",
+    "email": "litepicker@lvl.ninja",
+    "url": "https://lvl.ninja"
+  },
+  "homepage": "https://github.com/wakirin/litepicker-module-ranges#readme",
+  "bugs": {
+    "url": "https://github.com/wakirin/litepicker-module-ranges/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.7",
+    "autoprefixer": "^9.7.2",
+    "css-loader": "^3.2.0",
+    "dts-css-modules-loader": "^1.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "litepicker": "^1.2.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "proxy-polyfill": "^0.3.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-jest": "^24.2.0",
+    "ts-loader": "^6.2.1",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 11",
+    "last 2 versions",
+    "> 1%"
+  ]
+}
