@@ -66,6 +66,10 @@ module.exports = {
           },
           'sass-loader'
         ]
+      },
+      { 
+        test: /litepicker/, 
+        loader: 'exports-loader?Litepicker=window.Litepicker'
       }
     ]
   },

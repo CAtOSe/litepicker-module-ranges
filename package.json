@@ -34,6 +34,7 @@
     "autoprefixer": "^9.7.2",
     "css-loader": "^3.2.0",
     "dts-css-modules-loader": "^1.0.1",
+    "exports-loader": "^0.7.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "litepicker": "^1.2.1",

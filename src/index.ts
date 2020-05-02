@@ -78,7 +78,7 @@ Litepicker.prototype.enableModuleRanges = (self) => {
     block.appendChild(item);
   });
 
-  const containerMain = self.picker.querySelector('.container__main');
+  const containerMain = self.picker.querySelector(`.${style.containerMain}`);
 
   if (['bottom', 'right'].includes(opts.position)) {
     containerMain.appendChild(block);
