@@ -68,16 +68,18 @@ module.exports = {
         ]
       },
       { 
-        test: /litepicker/, 
+        test: /litepicker\/dist\/js\/main/, 
         loader: 'exports-loader?Litepicker=window.Litepicker'
       }
     ]
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js"]
+    extensions: [".ts", ".tsx", ".js"],
+    alias: {
+      'litepicker': 'litepicker/dist/js/main'
+    }
   },
   externals: {
-    litepicker: 'Litepicker',
     Litepicker: 'Litepicker',
   },
   plugins: [
