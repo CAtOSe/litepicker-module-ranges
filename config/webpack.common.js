@@ -78,6 +78,7 @@ module.exports = {
   },
   externals: {
     litepicker: 'Litepicker',
+    Litepicker: 'Litepicker',
   },
   plugins: [
     new webpack.BannerPlugin(banner)
