@@ -66,10 +66,6 @@ module.exports = {
           },
           'sass-loader'
         ]
-      },
-      { 
-        test: /litepicker\/dist\/js\/main/, 
-        loader: 'exports-loader?Litepicker=window.Litepicker'
       }
     ]
   },
@@ -80,7 +76,7 @@ module.exports = {
     }
   },
   externals: {
-    Litepicker: 'Litepicker',
+    litepicker: 'Litepicker',
   },
   plugins: [
     new webpack.BannerPlugin(banner)

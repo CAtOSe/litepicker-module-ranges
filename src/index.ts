@@ -1,12 +1,7 @@
-import Litepicker from 'litepicker';
 import * as style from './index.scss';
+import './window';
 
-declare module 'litepicker/dist/js/litepicker' {
-  // tslint:disable-next-line: interface-name
-  interface Litepicker {
-    enableModuleRanges(self);
-  }
-}
+const Litepicker = window.Litepicker;
 
 const startDate = new Date();
 const endDate = new Date();
