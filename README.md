@@ -5,11 +5,11 @@ Litepicker module ranges
 
 **Installing a Litepicker module**
 
-npm i litepicker-module-ranges
+`npm i litepicker-module-ranges`
 
 **Non-module environments**
 
-<script src="https://cdn.jsdelivr.net/npm/litepicker-module-ranges/dist/index.js"></script>
+`<script src="https://cdn.jsdelivr.net/npm/litepicker-module-ranges/dist/index.js"></script>`
 
 ## Usage
 
