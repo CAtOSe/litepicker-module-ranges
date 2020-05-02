@@ -1,6 +1,8 @@
 Litepicker module ranges
 =========
 
+![](/image.png?raw=true "Litepicker module ranges")
+
 ## Installation
 
 **Installing a Litepicker module**
