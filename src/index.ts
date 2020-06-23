@@ -40,6 +40,11 @@ const defaultRanges = {
 };
 
 Litepicker.prototype.enableModuleRanges = (self) => {
+  if (self.options.singleMode) {
+    console.warn('Litepicker: module ranges are disabled since singleMode is enabled.');
+    return;
+  }
+
   const defaultOptions = {
     position: 'left',
     ranges: {},

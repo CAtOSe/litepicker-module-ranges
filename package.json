@@ -1,6 +1,6 @@
 {
   "name": "litepicker-module-ranges",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Litepicker module ranges",
   "main": "./dist/index.js",
   "scripts": {
