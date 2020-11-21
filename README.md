@@ -36,3 +36,20 @@ var picker = new Litepicker({
 });
 </script>
 ```
+
+Specifying custom date ranges:
+```
+<script>
+var picker = new Litepicker({ 
+  element: document.getElementById('litepicker'),
+  numberOfMonths: 2,
+  numberOfColumns: 2,
+  singleMode: false,
+  moduleRanges: {
+    ranges: {
+      'New range': [new Date('2020-11-19'), new Date()] // first start date then end date.
+    }
+  },
+});
+</script>
+```
