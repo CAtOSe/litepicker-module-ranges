@@ -80,13 +80,13 @@ Litepicker.prototype.enableModuleRanges = (self) => {
 
   const containerMain = self.picker.querySelector(`.${style.containerMain}`);
 
-  if (['bottom', 'right'].includes(opts.position)) {
+  if (opts.position == 'bottom' || opts.position == 'right') {
     containerMain.appendChild(block);
   } else {
-    containerMain.prepend(block);
+    containerMain.insertBefore(block, containerMain.firstChild);
   }
 
-  if (['top', 'bottom'].includes(opts.position)) {
+  if (opts.position == 'top' || opts.position == 'bottom') {
     block.classList.add(style.flexRow);
     containerMain.classList.add(style.flexColumn);
   } else {
